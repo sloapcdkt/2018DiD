@@ -50,7 +50,7 @@ summary(s1) # looks reasonable
 ## 2016/2017 Datafrom 2017 annual report:
 
 # see https://github.com/sloapcdkt/2017aqrptR
-data <- read.csv("H:/TECH/ANNUAL_REPORT/2017aqrpt/2017aqrptR/DiD.csv", as.is = TRUE)
+data <- read.csv("DiD.csv", as.is = TRUE)
 data$date <- as.POSIXct(data$date, tz = "UTC")
 
 ## prelim 2018 from APCD database. Only validated thru September:
